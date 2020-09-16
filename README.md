@@ -1,7 +1,7 @@
-# README
+# クローズドコミュニティ内の案件委託に役立つアプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+
+所属しているコミュニティではメンバー同士の仲が良いものの、それぞれの能力や経験を把握し切れておらず、誰かの力を借りたい時に時間がかかってしまっていました。 今回作成したアプリはマイページから自分の制作物やスキル、スキルレベルを登録すればメンバーに共有できるというプラットフォームとなってい
 
 Things you may want to cover:
 
