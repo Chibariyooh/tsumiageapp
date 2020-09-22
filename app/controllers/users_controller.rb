@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 
     before_action :set_user, only: [:show, :edit, :update]
-    before_action :authenticate_user!, only: [:mypage, :edit, :update]
+    before_action :authenticate_user!, only: [:mypage, :edit, :update, :index]
 
     def index
         @users = User.all
@@ -34,6 +34,6 @@ class UsersController < ApplicationController
         end
         
             def user_params
-                params.fetch(:user,{}).permit(:username)
+                params.fetch(:user,{}).permit(:username,:pr_text,:twitter_id,:discord_id)
             end
 end

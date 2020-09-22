@@ -1,6 +1,9 @@
 <h1>プロフィール編集</h1>
 
 <%= form_with model: @user,local: true do |form| %>
-    <div>username<%= form.text_field :username %></div>
+    <div>名前<%= form.text_field :username %></div>
+    <div>挨拶<%= form.text_field :pr_text %></div>
+    <div>Twitter<%= form.text_field :twitter_id %></div>
+    <div>Discord<%= form.text_field :discord_id %></div>
     <div><%= form.submit "保存" %></div>
 <% end %>
