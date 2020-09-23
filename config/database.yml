@@ -82,4 +82,7 @@ production:
   <<: *default
   database: tsumiageapp_production
   username: tsumiageapp
+  pr_text: tsumiageapp
+  twitter_id: tsumiageapp
+  discord_id: tsumiageapp
   password: <%= ENV['TSUMIAGEAPP_DATABASE_PASSWORD'] %>

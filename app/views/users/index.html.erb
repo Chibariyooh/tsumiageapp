@@ -1,0 +1,8 @@
+<h1>こちらは一覧ページになります</h1>
+
+<% @users.each do |user| %>
+
+    <a href="./users/:id"><%= user.username %></a><br>
+
+
+<% end %>
